@@ -7,8 +7,10 @@ import Moods from './components/Moods';
 import Spinner from './components/Spinner';
 import Squares from './components/Squares';
 import Programmers from './components/Programmers';
+import App from './components/Todos';
 
 render(
+
   <>
     <Counter />
     <Moods />
@@ -16,6 +18,7 @@ render(
     <Input />
     <Squares />
     <Programmers />
+    <App/>
   </>
   ,
   document.querySelector('#root')
